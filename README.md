@@ -13,7 +13,7 @@ After installing Flutter, you can run the app by following these steps:
 1. Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/herocodess/video_feeds_app.git
 ```
 
 2. Navigate to the cloned repository
