@@ -1,16 +1,30 @@
 # video_feeds_app
 
-A new Flutter project.
+A Flutter mobile application that displays a list of video feeds using local assets videos.
 
-## Getting Started
+This project uses Clean architecture and Riverpod for State Management.
 
-This project is a starting point for a Flutter application.
+## Running the app
 
-A few resources to get you started if this is your first Flutter project:
+To run the app, you need to have Flutter installed on your machine. If you don't have Flutter installed, you can follow the instructions [here](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+After installing Flutter, you can run the app by following these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+
+```bash
+git clone
+```
+
+2. Navigate to the cloned repository
+
+```bash
+cd video_feeds_app
+```
+
+3. Run the app
+
+```bash
+flutter run
+```
+
