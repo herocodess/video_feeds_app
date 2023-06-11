@@ -1,0 +1,41 @@
+name: video_feeds_app
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  video_player:
+  chewie:
+  cached_network_image:
+  riverpod:
+  flutter_riverpod:
+  path_provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/intro.mp4
+    - assets/videos.json
+    - assets/image1.mp4
+    - assets/image2.mp4
+    - assets/image3.mp4
+    - assets/image4.mp4
+    - assets/image5.mp4
+    - assets/image6.mp4

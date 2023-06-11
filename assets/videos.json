@@ -1,0 +1,42 @@
+{
+  "status": true,
+  "message": "contents retrieved successfully",
+  "contents": [
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image1.mp4",
+      "title": "Kids Playing",
+      "duration": "0:30"
+    },
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image2.mp4",
+      "title": "Bowling Video",
+      "duration": "0:45"
+    },
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image3.mp4",
+      "title": "Fitness",
+      "duration": "1:00"
+    },
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image4.mp4",
+      "title": "Swimming",
+      "duration": "1:00"
+    },
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image5.mp4",
+      "title": "Photo Shoot",
+      "duration": "1:00"
+    },
+    {
+      "thumbnailUrl": "https://via.placeholder.com/150",
+      "videoUrl": "assets/image6.mp4",
+      "title": "Snow White",
+      "duration": "1:00"
+    }
+  ]
+}
