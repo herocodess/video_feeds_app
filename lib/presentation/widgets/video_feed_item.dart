@@ -29,7 +29,7 @@ class _VideoFeedItemState extends State<VideoFeedItem> {
   void initState() {
     super.initState();
     _videoPlayerController =
-        VideoPlayerController.asset(widget.feed.videoUrl ?? "assets/image1.mp4")
+        VideoPlayerController.asset(widget.feed.videoUrl ?? "assets/video1.mp4")
           ..initialize().then((value) {
             _videoPlayerController.play();
             _videoPlayerController.setLooping(true);
@@ -99,13 +99,17 @@ class _VideoFeedItemState extends State<VideoFeedItem> {
                     const Spacer(),
                     Text(
                       "Video title: ${widget.feed.title!}",
-                      style: const TextStyle(
-                          fontSize: 16, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          color: Colors.blue.shade800,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold),
                     ),
                     Text(
                       "Video duration: ${widget.feed.duration!}",
-                      style: const TextStyle(
-                          fontSize: 15, fontWeight: FontWeight.normal),
+                      style: TextStyle(
+                          color: Colors.blue.shade800,
+                          fontSize: 15,
+                          fontWeight: FontWeight.normal),
                     ),
                   ],
                 ),
@@ -131,8 +135,9 @@ class _VideoFeedItemState extends State<VideoFeedItem> {
                           top: 50.0, right: 24.0, bottom: 50.0),
                       child: Center(
                         child: Container(
-                          decoration: const BoxDecoration(
-                              shape: BoxShape.circle, color: Colors.black),
+                          decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: Colors.blue.shade800),
                           child: const Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(

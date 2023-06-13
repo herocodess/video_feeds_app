@@ -31,11 +31,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-    - assets/intro.mp4
     - assets/videos.json
-    - assets/image1.mp4
-    - assets/image2.mp4
-    - assets/image3.mp4
-    - assets/image4.mp4
-    - assets/image5.mp4
-    - assets/image6.mp4
+    - assets/video1.mp4
+    - assets/video2.mp4
+    - assets/video3.mp4
+    - assets/video4.mp4
+    - assets/video5.mp4
+    - assets/video6.mp4
+    - assets/video7.mp4
+    - assets/video8.mp4
+    - assets/video9.mp4
+    - assets/video10.mp4
+    - assets/video11.mp4
+    - assets/video12.mp4
+    - assets/video13.mp4
